@@ -55,5 +55,31 @@
       });
     });
   </script>
+  //////////////
+  <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-analytics.js"></script>
+
+  <script>
+  //Replace with your config data
+  var firebaseConfig = {
+    apiKey: "AIzaSyAwsQjvt5b5OWkamLOWe55WhSr3uEPJ9dY",
+    authDomain: "possystem-64215.firebaseapp.com",
+    projectId: "possystem-64215",
+    storageBucket: "possystem-64215.appspot.com",
+    messagingSenderId: "832641360790",
+    appId: "1:832641360790:web:42f37d3a37328407e833b7",
+    measurementId: "G-XLJ3GFSZHV"
+  };
+    
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  </script>
+
+////////////////////
+
+
+
 </body>
 </html>
