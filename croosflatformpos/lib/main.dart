@@ -3,15 +3,11 @@ import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-main(){
-  
+main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  
-  
-
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -53,7 +49,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final Future<FirebaseApp>_future=Firebase.initializeApp();
+  final Future<FirebaseApp> _future = Firebase.initializeApp();
   int _counter = 0;
 
   void _incrementCounter() {
@@ -82,15 +78,15 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: FutureBuilder(
-        future: _future,
-        builder: (context, snapshot) {
-        if (snapshot.hasError) {
-          print('no error');
-        } else {
-          print('error');
-        }
-        return CircularProgressIndicator();
-      }),
+          future: _future,
+          builder: (context, snapshot) {
+            if (snapshot.hasError) {
+              print('no error');
+            } else {
+              print('error');
+            }
+            return CircularProgressIndicator();
+          }),
     );
   }
 }
