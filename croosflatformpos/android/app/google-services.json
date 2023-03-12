@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "832641360790",
+    "project_id": "possystem-64215",
+    "storage_bucket": "possystem-64215.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832641360790:android:37bc0891951d4717e833b7",
+        "android_client_info": {
+          "package_name": "com.example.croosflatformpos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832641360790-6v4vag1jt5sdl13nsfgn0idlqmitkqo9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeDMydIR4QkJzeQlofdpQ_NSiuWnlIDbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832641360790-6v4vag1jt5sdl13nsfgn0idlqmitkqo9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
